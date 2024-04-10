@@ -59,7 +59,7 @@ window.addEventListener('scroll', scrollHeader)
 /*==================== MOSTRAR SCROLL TOPO ====================*/
 function scrollTop() {
   const scrollTop = document.getElementById('scroll-top')
-  // Quando o scroll fica maior que 560 height, adiciona a classe scroll-header à add the show-scroll class to the a tag with the scroll-top class
+  // Quando o scroll fica maior que 560 height, adiciona a classe show-scroll à tag com a classe scroll-top
   if (this.scrollY >= 560) scrollTop.classList.add('show-scroll')
   else scrollTop.classList.remove('show-scroll')
 }
@@ -82,7 +82,7 @@ const getCurrentIcon = () =>
 
 // Validação - se o usuário escolheu um tópico anteriormente
 if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+  // Se a validação foi preenchida, pergunta qual foi o problema pra saber se ativa ou desativa tema escuro
   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](
     darkTheme
   )
@@ -91,7 +91,7 @@ if (selectedTheme) {
   )
 }
 
-// Activate / deactivate the theme manually with the button
+// Ativa ou desativa manualmente com o botão
 themeButton.addEventListener('click', () => {
   // Add or remove the dark / icon theme
   document.body.classList.toggle(darkTheme)
@@ -101,7 +101,7 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-/*==================== SCROLL REVEAL ANIMATION ====================*/
+/*==================== REVELAÇÃO ANIMADA DO SCROLL ====================*/
 const sr = ScrollReveal({
   origin: 'top',
   distance: '30px',
