@@ -1,0 +1,570 @@
+2023-03-06 20:14:18 17552 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:14:18 17552 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:14:18 17552 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:14:18 17552 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:14:18 17552 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:14:18 17552 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:14:18 17552 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:14:18 17552 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:14:18 17552 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:14:18 17552 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:14:18 17552 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:14:18 17552 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:14:18 17552 [ERROR] Aborting
+
+2023-03-06 20:14:18 17552 [Note] Binlog end
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'partition'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:14:18 17552 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:14:18 17552 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:14:27 18144 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:14:27 18144 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:14:27 18144 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:14:27 18144 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:14:27 18144 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:14:27 18144 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:14:27 18144 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:14:27 18144 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:14:27 18144 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:14:27 18144 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:14:27 18144 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:14:27 18144 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:14:27 18144 [ERROR] Aborting
+
+2023-03-06 20:14:27 18144 [Note] Binlog end
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'partition'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:14:27 18144 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:14:27 18144 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:14:39 6412 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:14:40 6412 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:14:40 6412 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:14:40 6412 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:14:40 6412 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:14:40 6412 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:14:40 6412 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:14:40 6412 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:14:40 6412 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:14:40 6412 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:14:40 6412 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:14:40 6412 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:14:40 6412 [ERROR] Aborting
+
+2023-03-06 20:14:40 6412 [Note] Binlog end
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'partition'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:14:40 6412 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:14:40 6412 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:15:17 17168 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:15:17 17168 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:15:17 17168 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:15:17 17168 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:15:17 17168 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:15:17 17168 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:15:17 17168 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:15:17 17168 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:15:17 17168 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:15:17 17168 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:15:17 17168 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:15:17 17168 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:15:17 17168 [ERROR] Aborting
+
+2023-03-06 20:15:17 17168 [Note] Binlog end
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'partition'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:15:17 17168 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:15:18 17168 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:15:57 16300 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:15:57 16300 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:15:57 16300 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:15:57 16300 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:15:57 16300 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:15:57 16300 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:15:57 16300 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:15:57 16300 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:15:57 16300 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:15:57 16300 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:15:57 16300 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:15:57 16300 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:15:57 16300 [ERROR] Aborting
+
+2023-03-06 20:15:57 16300 [Note] Binlog end
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'partition'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:15:57 16300 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:15:57 16300 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:16:06 11748 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:16:06 11748 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:16:06 11748 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:16:06 11748 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:16:07 11748 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:16:07 11748 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:16:07 11748 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:16:07 11748 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:16:07 11748 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:16:07 11748 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:16:07 11748 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:16:07 11748 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:16:07 11748 [ERROR] Aborting
+
+2023-03-06 20:16:07 11748 [Note] Binlog end
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'partition'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:16:07 11748 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:16:07 11748 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:16:20 3640 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:16:20 3640 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:16:20 3640 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:16:20 3640 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:16:20 3640 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:16:20 3640 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:16:20 3640 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:16:20 3640 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:16:20 3640 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:16:20 3640 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:16:20 3640 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:16:20 3640 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:16:20 3640 [ERROR] Aborting
+
+2023-03-06 20:16:20 3640 [Note] Binlog end
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'partition'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:16:20 3640 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:16:20 3640 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:16:28 3676 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:16:28 3676 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:16:28 3676 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:16:28 3676 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:16:28 3676 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:16:28 3676 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:16:28 3676 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:16:28 3676 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:16:28 3676 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:16:28 3676 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:16:28 3676 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:16:28 3676 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:16:28 3676 [ERROR] Aborting
+
+2023-03-06 20:16:28 3676 [Note] Binlog end
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'partition'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:16:28 3676 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:16:28 3676 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:16:32 7588 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:16:32 7588 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:16:32 7588 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:16:32 7588 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:16:32 7588 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:16:32 7588 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:16:32 7588 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:16:32 7588 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:16:32 7588 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:16:32 7588 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:16:32 7588 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:16:32 7588 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:16:32 7588 [ERROR] Aborting
+
+2023-03-06 20:16:32 7588 [Note] Binlog end
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'partition'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:16:32 7588 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:16:33 7588 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:16:33 7588 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:16:33 7588 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:16:33 7588 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2023-03-06 20:25:41 15700 [Note] Plugin 'FEDERATED' is disabled.
+2023-03-06 20:25:41 15700 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-03-06 20:25:41 15700 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-06 20:25:41 15700 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-03-06 20:25:41 15700 [Note] InnoDB: Not using CPU crc32 instructions
+2023-03-06 20:25:41 15700 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-03-06 20:25:41 15700 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06 20:25:41 15700 [ERROR] InnoDB: Z:\usbwebserver\mysql\data\ibdata1 can't be opened in read-write mode
+2023-03-06 20:25:41 15700 [ERROR] InnoDB: The system tablespace must be writable!
+2023-03-06 20:25:41 15700 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-03-06 20:25:41 15700 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-03-06 20:25:41 15700 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-03-06 20:25:41 15700 [ERROR] Aborting
+
+2023-03-06 20:25:41 15700 [Note] Binlog end
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'partition'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_CMP'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'INNODB_TRX'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'BLACKHOLE'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'ARCHIVE'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'MyISAM'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'MEMORY'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'CSV'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'sha256_password'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'mysql_old_password'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'mysql_native_password'
+2023-03-06 20:25:41 15700 [Note] Shutting down plugin 'binlog'
+2023-03-06 20:25:41 15700 [Note] Z:\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+

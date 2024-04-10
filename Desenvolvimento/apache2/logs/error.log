@@ -1,0 +1,6 @@
+[Tue Mar 19 20:05:00.709823 2024] [mpm_winnt:notice] [pid 22344:tid 792] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Tue Mar 19 20:05:00.709823 2024] [mpm_winnt:notice] [pid 22344:tid 792] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Tue Mar 19 20:05:00.709823 2024] [core:notice] [pid 22344:tid 792] AH00094: Command line: 'C:\\Users\\Adriely\\Desktop\\usbwebserver/apache2/bin/httpd_usbwv8.exe -d C:/Users/Adriely/Desktop/usbwebserver/apache2'
+[Tue Mar 19 20:05:00.714824 2024] [mpm_winnt:notice] [pid 22344:tid 792] AH00418: Parent: Created child process 8500
+[Tue Mar 19 20:05:01.180936 2024] [mpm_winnt:notice] [pid 8500:tid 632] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 19 20:06:41.298342 2024] [:error] [pid 8500:tid 1332] [client ::1:56640] PHP Notice:  Undefined index: txt_cor in C:\\Users\\Adriely\\Desktop\\usbwebserver\\root\\HeartStudio\\gravar.php on line 8, referer: http://localhost:8080/HeartStudio/
