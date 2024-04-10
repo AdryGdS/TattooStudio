@@ -42,7 +42,7 @@ $preco = $linha ["preco"];
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--========== BOX ICONS ==========-->
+    <!--========== CAIXA DE ICONES ==========-->
     <link
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
@@ -202,7 +202,7 @@ $preco = $linha ["preco"];
       
     </footer>
 
-    <!--========== SCROLL REVEAL ==========-->
+    <!--========== SCROLL ==========-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--========== MAIN JS ==========-->

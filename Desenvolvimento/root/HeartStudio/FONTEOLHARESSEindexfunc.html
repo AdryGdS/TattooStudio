@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--========== CAIXA ICONES ==========-->
+    <!--========== BOX ICONS ==========-->
     <link
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
@@ -13,7 +13,7 @@
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Alteração Agendamento</title>
+    <title>Área Funcionário Heart</title>
   </head>
   <body>
     <!--========== SCROLL TOP ==========-->
@@ -50,17 +50,86 @@
         </div>
       </nav>
     </header>
+
     <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">Heart</h1>
+            <h2 class="home__subtitle">
+              Bem vindo <br> funcionário.
+            </h2>
+          </div>
+
+          <img src="assets/img/11.png" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--========== SOBRE ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <span class="section-subtitle about__initial">Sobre nós</span>
+            <h2 class="section-title about__initial">
+              Life is art and <br />heart
+            </h2>
+            <p class="about__description">
+              Somos apaixonados por arte e é claro, tatuagens. Nossa equipe é bastante diversa, habilidosa em muitos estilos de tatuagem. Venha nos visitar se desejar a experiência de desenvolver sua ideia de tatuagem ou escolhar uma inspiração para eternizar na pele.
+            </p>
+            <a href="#" class="button">Saiba Mais</a>
+          </div>
+
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+        </div>
+      </section>
+
+    
+
+      <!--==========  PORTFOLIO ==========-->
+      <section class="menu section bd-container" id="menu">
+        <span class="section-subtitle">Artistas</span>
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="port__container bd-grid">
+          <div class="port__content">
+            <img src="assets/img/port1.jpg" alt="" class="port__img" />
+            <h3 class="port__name">Feito por</h3>
+            <span class="port__detail">Moquidesia</span>
+            <span class="port__preci">Preço ~ xxxx</span>
+          </div>
+
+          <div class="port__content">
+            <img src="assets/img/port5.jpg" alt="" class="port__img" />
+            <h3 class="port__name">Feito por</h3>
+            <span class="port__detail">Vitor Pereira</span>
+            <span class="port__preci">Preço ~ xxxx</span>
+          </div>
+
+          <div class="port__content">
+            <img src="assets/img/port3.jpg" alt="" class="port__img" />
+            <h3 class="port__name">Feito por</h3>
+            <span class="port__detail">Lindolfo</span>
+            <span class="port__preci">Preço ~ xxxx</span>
+          </div>
+        </div>
+      </section>
+
       <!--========== AGENDE ==========-->
       <section class="contact section bd-container" id="contact">
         <div class="contact__container bd-grid">
             <form class="cadastro" name="form1" method="post">
               <div class="form">
               <label for="nome" id="label">NOME: </label>
-              <input type="text" name="txt_cliente" size="80" id="nome" value="<?php if (isset($_GET['alterar'])) echo $_GET['alterar'] ?>" readonly><br><br>
+              <input
+                type="text"
+                name="txt_cliente"
+                size="80"
+                id="nome"
+              /><br><br>
 
               <label for="tatuador" id="label">ARTISTA: </label>&nbsp;
-              <select name="txt_tatuador" id="tatuador"value="<?php if (isset($_GET['alterar'])) echo $_GET['tatuador'] ?>">
+              <select name="txt_tatuador" id="tatuador">
                 <option value="">- Selecionar tatuador -</option>
                 <option value="Moquidesia">Moquidesia</option>
                 <option value="Lindolfo">Lindolfo</option>
@@ -69,7 +138,7 @@
               >&nbsp;&nbsp;&nbsp;&nbsp;
 
               <label for="tamanho" id="label1">TAMANHO: </label>&nbsp;
-              <select name="txt_tamanho_tatuagem" id="tamanho" value="<?php if (isset($_GET['alterar'])) echo $_GET['tamanho_tatuagem'] ?>">
+              <select name="txt_tamanho_tatuagem" id="tamanho">
                 <option value="">- Selecionar tamanho -</option>
                 <option value="10">5 a 10 cm</option>
                 <option value="20">10 a 20 cm</option>
@@ -78,9 +147,13 @@
               >&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
 
               <label for="data" id="label">DATA: </label>&nbsp;
-              <input type="date"name="txt_data_sessao"size="30" id="data" value="<?php if (isset($_GET['alterar'])) echo $_GET['data_sessao'] ?>">&nbsp;&nbsp;
-              <label for="hora" id="label1">HORA: </label>&nbsp;
-              <input type="time" name="txt_hora_sessao" size="30" id="hora" value="<?php if (isset($_GET['alterar'])) echo $_GET['hora_sessao'] ?>" >
+              <input
+                type="date"
+                name="txt_data_sessao"
+                size="30"
+                id="data"
+              />&nbsp;&nbsp; <label for="hora" id="label1">HORA: </label>&nbsp;
+              <input type="time" name="txt_hora_sessao" size="30" id="hora" />
               <br><br>
               <form name="Opcao_Cor" id="label">
                 CORES: &nbsp;&nbsp;
@@ -88,14 +161,29 @@
                 <input type="RADIO" name="txt_cor" value="2" /> Cor
               </form>&nbsp;&nbsp;
               <label for="infocont" id="label1">CONTATO: </label>
-              <input type="text" name="txt_contato" size="80" id="infocont" value="<?php if (isset($_GET['alterar'])) echo $_GET['infocont'] ?>">
+              <input
+                type="text"
+                name="txt_contato"
+                size="80"
+                id="infocont"
+              />
               <br><br><br>
-              <input type="submit" value="Alterar" onclick="document.form1.action='./alterar.php'" id="contact__button" class="button">&nbsp;&nbsp;&nbsp;
-              <input type="submit" value="Ver Agenda" onclick="document.form1.action='./listagem.php'" id="contact__button1" class="button">
+              <input
+                type="submit"
+                value="Solicitar"
+                onclick="document.form1.action='./gravar.php'" id="contact__button"
+                class="button"
+              />&nbsp;&nbsp;&nbsp;
+              <input
+                type="submit"
+                value="Ver Agenda"
+                onclick="document.form1.action='./listagem.php'" id="contact__button1"
+                class="button"
+              />
               </div>
             </form>
             
-      <h2 class="section-title">Altere <br> Agendamento</h2>
+            <h2 class="section-title">Faça o <br> Agendamento</h2>
         </div>
       </section>
     </main>
@@ -150,13 +238,13 @@
         </div>
       </div>
 
-    
+     
     </footer>
 
-    <!--========== SCROLL ==========-->
+    <!--========== SCROLL REVEAL ==========-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--========== MAIN JS ==========-->
     <script src="assets/js/main.js"></script>
   </body>
-  </html>
+</html>
