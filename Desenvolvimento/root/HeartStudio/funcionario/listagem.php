@@ -1,3 +1,40 @@
+<?php
+
+include 'conexao.php';
+
+if(isset($_POST['busca_nome']) != '') {
+	$sql = mysql_query("select * from tb_agendamento where nome_cliente like  '{$_POST['busca_nome']}%' order by codigo_agendamento asc");
+} else {
+	$sql = mysql_query("select * from tb_agendamento order by tatuador asc");
+}
+
+
+if(isset($_GET['apagar'])){
+	$sql = mysql_query("delete from tb_agendamento where codigo_agendamento=". $_GET['apagar']);
+	header('Location: indexlistaapaga.html');
+	return false;
+	
+}
+if(isset($_GET['alterar'])){
+	$sql = mysql_query("select * from tb_agendamento where codigo_agendamento=". $_GET['alterar']);
+	$linha= mysql_fetch_assoc($sql);
+
+$cliente = $linha ["nome_cliente"];
+$tatuador = $linha ["tatuador"];
+$tamanho_tatuagem = $linha ["tamanho_tatuagem"];
+$data_sessao = $linha ["data_sessao"];
+$hora_sessao = $linha ["hora_sessao"];
+$cor = $linha ["cor"];
+$infocont = $linha ["infocont"];
+$preco = $linha ["preco"];
+
+	$sql = mysql_query("update tb_agendamento set cliente='$cliente', tatuador='$tatuador', tamanho_tatuagem='$tamanho_tatuagem', data_sessao='$data_sessao', hora_sessao='$hora_sessao', cor='$cor', infocont='$infocont', preco='$preco' where codigo_agendamento=". $_GET['alterar']);
+	header('Location: indexlista.html');
+	return false;
+	
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,16 +67,16 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="indexfunc.html#home" class="nav__link">Home</a>
+              <a href="homefunc.html#home" class="nav__link">Home</a>
             </li>
             <li class="nav__item">
-              <a href="indexfunc.html#about" class="nav__link">Sobre</a>
+              <a href="homefunc.html#about" class="nav__link">Sobre</a>
             </li>
             <li class="nav__item">
-              <a href="indexfunc.html#menu" class="nav__link">Portfolio</a>
+              <a href="homefunc.html#menu" class="nav__link">Portfolio</a>
             </li>
             <li class="nav__item">
-              <a href="indexfunc.html#contact" class="nav__link">Agende</a>
+              <a href="homefunc.html#contact" class="nav__link">Agende</a>
             </li>
 
             <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
@@ -99,7 +136,8 @@
 		   <tr>
             			
 			 <?php  } 
-				echo "<center><a href=\"indexfunc.html\" class='nav__link'>VOLTAR</a></center>";echo "<br>";
+				echo "<center><a href=\"homefunc.html#\" class='nav__link'>VOLTAR</a></center>";
+				echo "<br>";
 			?>
 </table>
 

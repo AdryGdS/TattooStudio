@@ -12,8 +12,8 @@
     />
 
     <!--========== CSS ==========-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="/Desenvolvimento/root/HeartStudio/assets/css/style.css" />
+    <link rel="stylesheet" href="/Desenvolvimento/root/HeartStudio/assets/css/styles.css" />
     <title>Heart Tattoo Art Studio</title>
   </head>
   <body>
@@ -25,12 +25,12 @@
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
       <nav class="nav bd-container">
-        <a href="headfoot.html" class="nav__logo">Heart - Home</a>
+        <a href="headfoot.html" class="nav__logo">Heart - Home Funcionário</a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="home.html" class="nav__link">Home</a>
+              <a href="homefunc.html" class="nav__link">Home</a>
             </li>
             <li class="nav__item">
               <a href="about_us.html" class="nav__link">Sobre</a>
@@ -39,7 +39,7 @@
               <a href="portfolio.html" class="nav__link">Portfolio</a>
             </li>
             <li class="nav__item">
-              <a href="agenda.html" class="nav__link">Agende</a>
+              <a href="agendafunc.html" class="nav__link">Agende</a>
             </li>
 
             <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
@@ -54,72 +54,22 @@
     <main class="l-main">
       
       <main class="l-main">
-        <!--========== Agenda ==========-->
-        <section class="contact section bd-container" id="contact">
-          <div class="contact__container bd-grid">
-              <form class="cadastro" name="form1" method="post">
-                <div class="form">
-                <label for="nome" id="label">NOME: </label>
-                <input
-                  type="text"
-                  name="txt_cliente"
-                  size="80"
-                  id="nome"
-                /><br><br>
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+          <div class="home__container bd-container bd-grid">
+            <div class="home__data">
+              <h1 class="home__title">Funcionário da Heart</h1>
+              <h2 class="home__subtitle">
+                We do it for the soul,
+                <br>we do it from the heart.
+              </h2>
+            </div>
   
-                <label for="tatuador" id="label">ARTISTA: </label>&nbsp;
-                <select name="txt_tatuador" id="tatuador">
-                  <option value="">- Selecionar tatuador -</option>
-                  <option value="solicitacao-Moquidesia">Moquidesia</option>
-                  <option value="solicitacao-Lindolfo">Lindolfo</option>
-                  <option value="solicitacao-Gorethe">Gorethe</option>
-                  <option value="solicitacao-Vitor_Pereira">Vitor Pereira</option></select
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-  
-                <label for="tamanho" id="label1">TAMANHO: </label>&nbsp;
-                <select name="txt_tamanho_tatuagem" id="tamanho">
-                  <option value="">- Selecionar tamanho -</option>
-                  <option value="10">5 a 10 cm</option>
-                  <option value="20">10 a 20 cm</option>
-                  <option value="30">20 a 30 cm</option>
-                  <option value="40">30 cm ou mais</option></select
-                >&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
-  
-                <label for="data" id="label">DATA: </label>&nbsp;
-                <input
-                  type="date"
-                  name="txt_data_sessao"
-                  size="30"
-                  id="data"
-                />&nbsp;&nbsp; <label for="hora" id="label1">HORA: </label>&nbsp;
-                <input type="time" name="txt_hora_sessao" size="30" id="hora" />
-                <br><br>
-                <form name="Opcao_Cor" id="label">
-                  CORES: &nbsp;&nbsp;
-                  <input type="RADIO" name="txt_cor" value="1" /> P&B
-                  <input type="RADIO" name="txt_cor" value="2" /> Cor
-                </form>&nbsp;&nbsp;
-                <label for="infocont" id="label1">CONTATO: </label>
-                <input
-                  type="text"
-                  name="txt_contato"
-                  size="80"
-                  id="infocont"
-                />
-                <br><br><br>
-                <input
-                  type="submit"
-                  value="Solicitar"
-                  onclick="document.form1.action='./gravar1.php'" id="contact__button"
-                  class="button"
-                />
-                </div>
-              </form>
-              
-        <h2 class="section-title">Solicite <br> uma sessão</h2>
+            <img src="/Desenvolvimento/root/HeartStudio/assets/img/11.png" alt="" class="home__img" />
           </div>
         </section>
 
+</section>
     </main>
 
     <!--========== FOOTER ==========-->
@@ -179,6 +129,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--========== MAIN JS ==========-->
-    <script src="assets/js/main.js"></script>
+    <script src="/Desenvolvimento/root/HeartStudio/assets/js/main.js"></script>
   </body>
   </html>
