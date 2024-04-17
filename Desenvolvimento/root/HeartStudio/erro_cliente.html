@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script language="JavaScript"> alert("Erro no agendamento");
+  window.location="home.html"</script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Heart Tattoo Art Studio</title>
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Heart</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre</a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Agende</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">Heart</h1>
+            <h2 class="home__subtitle">
+              We do it for the soul,
+              <br>we do it from the heart.
+            </h2>
+          </div>
+
+          <img src="assets/img/11.png" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--========== SOBRE ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <span class="section-subtitle about__initial">Sobre nós</span>
+            <h2 class="section-title about__initial">
+              Life is art and <br />heart
+            </h2>
+            <p class="about__description">
+              Somos apaixonados por arte e é claro, tatuagens. Nossa equipe é bastante diversa, habilidosa em muitos estilos de tatuagem. Venha nos visitar se desejar a experiência de desenvolver sua ideia de tatuagem ou escolhar uma inspiração para eternizar na pele.
+            </p>
+            <a href="#" class="button">Saiba Mais</a>
+          </div>
+
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+        </div>
+      </section>
+
+    
+
+      <!--==========  PORTFOLIO ==========-->
+      <section class="menu section bd-container" id="menu">
+        <span class="section-subtitle">Artistas</span>
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="port__container bd-grid">
+          <div class="port__content">
+            <img src="assets/img/port1.jpg" alt="" class="port__img" />
+            <h3 class="port__name">Feito por</h3>
+            <span class="port__detail">Moquidesia</span>
+            <span class="port__preci">Preço ~ xxxx</span>
+          </div>
+
+          <div class="port__content">
+            <img src="assets/img/port5.jpg" alt="" class="port__img" />
+            <h3 class="port__name">Feito por</h3>
+            <span class="port__detail">Vitor Pereira</span>
+            <span class="port__preci">Preço ~ xxxx</span>
+          </div>
+
+          <div class="port__content">
+            <img src="assets/img/port3.jpg" alt="" class="port__img" />
+            <h3 class="port__name">Feito por</h3>
+            <span class="port__detail">Lindolfo</span>
+            <span class="port__preci">Preço ~ xxxx</span>
+          </div>
+        </div>
+      </section>
+
+      <!--========== AGENDE ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+            <form class="cadastro" name="form1" method="post">
+              <div class="form">
+              <label for="nome" id="label">NOME: </label>
+              <input
+                type="text"
+                name="txt_cliente"
+                size="80"
+                id="nome"
+              /><br><br>
+
+              <label for="tatuador" id="label">ARTISTA: </label>&nbsp;
+              <select name="txt_tatuador" id="tatuador">
+                <option value="">- Selecionar tatuador -</option>
+                <option value="solicitacao-Moquidesia">Moquidesia</option>
+                <option value="solicitacao-Lindolfo">Lindolfo</option>
+                <option value="solicitacao-Gorethe">Gorethe</option>
+                <option value="solicitacao-Vitor_Pereira">Vitor Pereira</option></select
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <label for="tamanho" id="label1">TAMANHO: </label>&nbsp;
+              <select name="txt_tamanho_tatuagem" id="tamanho">
+                <option value="">- Selecionar tamanho -</option>
+                <option value="10">5 a 10 cm</option>
+                <option value="20">10 a 20 cm</option>
+                <option value="30">20 a 30 cm</option>
+                <option value="40">30 cm ou mais</option></select
+              >&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+
+              <label for="data" id="label">DATA: </label>&nbsp;
+              <input
+                type="date"
+                name="txt_data_sessao"
+                size="30"
+                id="data"
+              />&nbsp;&nbsp; <label for="hora" id="label1">HORA: </label>&nbsp;
+              <input type="time" name="txt_hora_sessao" size="30" id="hora" />
+              <br><br>
+              <form name="Opcao_Cor" id="label">
+                CORES: &nbsp;&nbsp;
+                <input type="RADIO" name="txt_cor" value="1" /> P&B
+                <input type="RADIO" name="txt_cor" value="2" /> Cor
+              </form>&nbsp;&nbsp;
+              <label for="infocont" id="label1">CONTATO: </label>
+              <input
+                type="text"
+                name="txt_contato"
+                size="80"
+                id="infocont"
+              />
+              <br><br><br>
+              <input
+                type="submit"
+                value="Solicitar"
+                onclick="document.form1.action='./gravar.php'" id="contact__button"
+                class="button"
+              />
+              </div>
+            </form>
+            
+      <h2 class="section-title">Solicite seu <br> Agendamento</h2>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">Heart Tattoo</a>
+          <span class="footer__description">Art Studio</span>
+          <div>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Serviços</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Design</a></li>
+            <li><a href="#" class="footer__link">Tatuagem</a></li>
+            <li><a href="#" class="footer__link">Piercing</a></li>
+            <li><a href="#" class="footer__link">Remoção</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Informações</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Flash Tattoo</a></li>
+            <li><a href="#" class="footer__link">Entre em contato</a></li>
+            <li><a href="#" class="footer__link">Política de Privacidade</a></li>
+            <li><a href="#" class="footer__link">Termos de Serviço</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Contato</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Santo André - SP</a></li>
+            <li><a href="#" class="footer__link">Rua Senador Flaquer, 841</a></li>
+            <li><a href="#" class="footer__link">(11) 2992-9922</a></li>
+            <li><a href="#" class="footer__link">heartstudioart@email.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+     
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

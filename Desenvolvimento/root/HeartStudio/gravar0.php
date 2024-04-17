@@ -18,12 +18,12 @@ $sql = mysql_query ("select * from tb_agendamento where
 					codigo_agendamento='$codigo_agendamento'");
 if (mysql_num_rows($sql) > 0) {
     
-	header('Location: index3.html');
+	header('Location: erro_func.html');
 } 
 else {
    $sql = mysql_query ("insert into tb_agendamento (nome_cliente,data_sessao,hora_sessao,tatuador,tamanho_tatuagem,cor,infocont, preco,codigo_agendamento)
                        values ('$cliente','$data_sessao','$hora_sessao','$tatuador','$tamanho_tatuagem','$cor', '$infocont','$preco','$codigo_agendamento')");
-	 header('Location: index2.html');
+	 header('Location: certo_func.html');
 }
 
 	
