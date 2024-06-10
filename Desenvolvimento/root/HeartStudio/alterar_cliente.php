@@ -23,8 +23,8 @@
 
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
-      <nav class="nav bd-container">
-        <a href="#" class="nav__logo">Heart</a>
+    <nav class="nav bd-container">
+    <a href="login.html" class="nav__logo">Login</a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
