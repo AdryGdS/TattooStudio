@@ -12,8 +12,8 @@ if (mysql_num_rows($sql) > 0) {
 	echo "<br>";
 } 
 else {
-   $sql = mysql_query ("insert into tb_cadastro (user,password)
-                       values ('$user',PASSWORD('$password'))");   
+   $sql = mysql_query ("insert into tb_login (user,password)
+                       values ('$user','$password')");   
    echo "<center>";
 	echo "<hr>";
 	echo "Conta cadastrada com sucesso!";

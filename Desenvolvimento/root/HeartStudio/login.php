@@ -18,7 +18,7 @@ if (mysql_num_rows($sql) > 0) {
         exit();
     } else {
         // Outros usuários
-        header("Location: perfil.html"); // Redireciona para a página de perfil
+        header("Location: perfil.php"); // Redireciona para a página de perfil
         exit();
     }
 }
