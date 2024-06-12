@@ -6,6 +6,9 @@ include 'conexao.php';
 $user = $_POST["txt_login"];
 $password = $_POST["txt_senha"];
 
+echo "Usuário: " . $user . "<br>";
+echo "Senha: " . $password . "<br>";
+
 // Prepare e execute a consulta SQL
 $sql = $pdo->prepare("SELECT * FROM tb_login WHERE user = :user AND password = :password");
 $sql->bindParam(':user', $user);
@@ -14,11 +17,7 @@ $sql->execute();
 
 // Verifique se o login foi bem-sucedido
 if ($sql->rowCount() > 0) {
-    echo "<center>";
-	echo "<hr>";
-	echo "Conta logada com sucesso!";
-	echo "<hr>";
-	echo "<br>";
+    echo "Conta logada com sucesso!<br>";
 
     // Redirecione com base no tipo de usuário
     $row = $sql->fetch(PDO::FETCH_ASSOC);
@@ -32,10 +31,6 @@ if ($sql->rowCount() > 0) {
         exit();
     }
 } else { 
-    echo "<center>";
-	echo "<hr>";
-	echo "Conta não logada!";
-	echo "<hr>";
-	echo "<br>";    
+    echo "Conta não logada!<br>";  
 }
 ?>
