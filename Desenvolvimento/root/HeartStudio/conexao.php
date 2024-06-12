@@ -1,15 +1,15 @@
 <?php
-$host = 'dpg-cpkt9ovsc6pc73f4blbg-a';
-$dbname = 'TattooStudioBD';
-$user = 'tattoostudiobd_user';
-$password = '8qfTsXmQh2wKvx5DEJMREg68ZpLMM2Av';
-$port = '5432';
+// Configuração da conexão com o banco de dados
+$db_url = "postgres://tattoostudiobd_user:8qfTsXmQh2wKvx5DEJMREg68ZpLMM2Av@dpg-cpkt9ovsc6pc73f4blbg-a/tattoostudiobd";
 
 try {
-    $dsn = "pgsql:host=$host;port=$port;dbname=$dbname";
-    $pdo = new PDO($dsn, $user, $password, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-    echo "Connected to the database successfully!";
+    // Conectando ao banco de dados usando a URL fornecida pelo Render
+    $pdo = new PDO($db_url);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Conexão com o banco de dados estabelecida com sucesso!<br>";
 } catch (PDOException $e) {
-    echo 'Connection failed: ' . $e->getMessage();
+    // Se ocorrer um erro ao conectar-se ao banco de dados
+    echo "Erro ao conectar-se ao banco de dados: " . $e->getMessage();
+    die(); // Encerra o script se ocorrer um erro de conexão
 }
-
+?>
