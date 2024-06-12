@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -52,74 +51,87 @@
       </nav>
     </header>
     <main class="l-main">
-      
-      <main class="l-main">
-        <!--========== Agenda ==========-->
-        <section class="contact section bd-container" id="contact">
-          <div class="contact__container bd-grid">
-              <form class="cadastro" name="form1" method="post">
-                <div class="form">
-                <label for="nome" id="label">NOME: </label>
-                <input
-                  type="text"
-                  name="txt_cliente"
-                  size="80"
-                  id="nome"
-                /><br><br>
-  
-                <label for="tatuador" id="label">ARTISTA: </label>&nbsp;
-                <select name="txt_tatuador" id="tatuador">
-                  <option value="">- Selecionar tatuador -</option>
-                  <option value="solicitacao-Moquidesia">Moquidesia</option>
-                  <option value="solicitacao-Lindolfo">Lindolfo</option>
-                  <option value="solicitacao-Gorethe">Gorethe</option>
-                  <option value="solicitacao-Vitor_Pereira">Vitor Pereira</option></select
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-  
-                <label for="tamanho" id="label1">TAMANHO: </label>&nbsp;
-                <select name="txt_tamanho_tatuagem" id="tamanho">
-                  <option value="">- Selecionar tamanho -</option>
-                  <option value="10">5 a 10 cm</option>
-                  <option value="20">10 a 20 cm</option>
-                  <option value="30">20 a 30 cm</option>
-                  <option value="40">30 cm ou mais</option></select
-                >&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
-  
-                <label for="data" id="label">DATA: </label>&nbsp;
-                <input
-                  type="date"
-                  name="txt_data_sessao"
-                  size="30"
-                  id="data"
-                />&nbsp;&nbsp; <label for="hora" id="label1">HORA: </label>&nbsp;
-                <input type="time" name="txt_hora_sessao" size="30" id="hora" />
-                <br><br>
-                <form name="Opcao_Cor" id="label">
-                  CORES: &nbsp;&nbsp;
-                  <input type="RADIO" name="txt_cor" value="1" /> P&B
-                  <input type="RADIO" name="txt_cor" value="2" /> Cor
-                </form>&nbsp;&nbsp;
-                <label for="infocont" id="label1">CONTATO: </label>
-                <input
-                  type="text"
-                  name="txt_contato"
-                  size="80"
-                  id="infocont"
-                />
-                <br><br><br>
-                <input
-                  type="submit"
-                  value="Solicitar"
-                  onclick="document.form1.action='./gravar1.php'" id="contact__button"
-                  class="button"
-                />
-                </div>
-              </form>
-              
-        <h2 class="section-title">Solicite <br> uma sessão</h2>
-          </div>
-        </section>
+      <!--========== Agenda ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+          <form class="cadastro" name="form1" action="./gravar1.php" method="post">
+            <div class="form">
+              <label for="nome" id="label">NOME: </label>
+              <input
+                type="text"
+                name="txt_cliente"
+                size="80"
+                id="nome"
+                required
+              /><br /><br />
 
+              <label for="tatuador" id="label">ARTISTA: </label>
+              <select name="txt_tatuador" id="tatuador" required>
+                <option value="">- Selecionar tatuador -</option>
+                <option value="solicitacao-Moquidesia">Moquidesia</option>
+                <option value="solicitacao-Lindolfo">Lindolfo</option>
+                <option value="solicitacao-Gorethe">Gorethe</option>
+                <option value="solicitacao-Vitor_Pereira">Vitor Pereira</option>
+              </select>
+              <br /><br />
+
+              <label for="tamanho" id="label1">TAMANHO: </label>
+              <select name="txt_tamanho_tatuagem" id="tamanho" required>
+                <option value="">- Selecionar tamanho -</option>
+                <option value="10">5 a 10 cm</option>
+                <option value="20">10 a 20 cm</option>
+                <option value="30">20 a 30 cm</option>
+                <option value="40">30 cm ou mais</option>
+              </select>
+              <br /><br />
+
+              <label for="data" id="label">DATA: </label>
+              <input
+                type="date"
+                name="txt_data_sessao"
+                size="30"
+                id="data"
+                required
+              />
+              <label for="hora" id="label1">HORA: </label>
+              <input
+                type="time"
+                name="txt_hora_sessao"
+                size="30"
+                id="hora"
+                required
+              />
+              <br /><br />
+
+              <form name="Opcao_Cor" id="label">
+                CORES:
+                <input type="radio" name="txt_cor" value="1" /> P&B
+                <input type="radio" name="txt_cor" value="2" /> Cor
+              </form>
+              <br /><br />
+
+              <label for="infocont" id="label1">CONTATO: </label>
+              <input
+                type="text"
+                name="txt_contato"
+                size="80"
+                id="infocont"
+                required
+              />
+              <br /><br /><br />
+
+              <input
+                type="submit"
+                value="Solicitar"
+                id="contact__button"
+                class="button"
+              />
+            </div>
+          </form>
+
+          <h2 class="section-title">Solicite <br> uma sessão</h2>
+        </div>
+      </section>
     </main>
 
     <!--========== FOOTER ==========-->
@@ -129,15 +141,9 @@
           <a href="#" class="footer__logo">Heart Tattoo</a>
           <span class="footer__description">Art Studio</span>
           <div>
-            <a href="#" class="footer__social"
-              ><i class="bx bxl-facebook"></i
-            ></a>
-            <a href="#" class="footer__social"
-              ><i class="bx bxl-instagram"></i
-            ></a>
-            <a href="#" class="footer__social"
-              ><i class="bx bxl-twitter"></i
-            ></a>
+            <a href="#" class="footer__social"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="footer__social"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="footer__social"><i class="bx bxl-twitter"></i></a>
           </div>
         </div>
 
@@ -171,8 +177,6 @@
           </ul>
         </div>
       </div>
-
-      
     </footer>
 
     <!--========== SCROLL ==========-->
@@ -181,4 +185,4 @@
     <!--========== MAIN JS ==========-->
     <script src="assets/js/main.js"></script>
   </body>
-  </html>
+</html>
