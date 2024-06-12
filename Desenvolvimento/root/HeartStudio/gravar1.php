@@ -1,6 +1,6 @@
 <?php
 // Configuração da conexão com o banco de dados
-$db_url = "postgres://tattoostudiobd_user:8qfTsXmQh2wKvx5DEJMREg68ZpLMM2Av@dpg-cpkt9ovsc6pc73f4blbg-a/tattoostudiobd";
+$db_url = "postgres://tattoostudiobd_user:8qfTsXmQh2wKvx5DEJMREg68ZpLMM2Av@dpg-cpkt9ovsc6pc73f4blbg-a.oregon-postgres.render.com/tattoostudiobd";
 
 try {
     // Conectando ao banco de dados usando a URL fornecida pelo Render
