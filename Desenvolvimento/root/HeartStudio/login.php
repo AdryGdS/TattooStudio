@@ -22,8 +22,16 @@ try {
     if ($sql->rowCount() > 0) {
         echo "Conta logada com sucesso!<br>";
         // Redirecionar o usuário após o login
-        header("Location: pagina_de_inicio.php");
-        exit();
+        $row = $sql->fetch(PDO::FETCH_ASSOC);
+        if (substr($row['user'], 0, 1) == 'f' && substr($row['user'], -1) == '@') {
+            // Usuário com user que começa com 'f' e termina com '@'
+            header("Location: homefunc.html"); // Redireciona para a página de funcionários
+            exit();
+        } else {
+            // Outros usuários
+            header("Location: perfil.php"); // Redireciona para a página de perfil
+            exit();
+        }
     } else { 
         echo "Usuário ou senha inválidos!<br>";  
     }
